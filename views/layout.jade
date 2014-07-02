@@ -2,6 +2,11 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/styles.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='javascript', href='/javascripts/angular.min.js')
   body
-    block content
+    section
+      div(class='left-row')
+        = ''
+      article
+        block content
